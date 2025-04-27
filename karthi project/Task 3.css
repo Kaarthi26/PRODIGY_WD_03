@@ -1,0 +1,67 @@
+/* Neon background */
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  color: #00ffea;
+}
+
+/* Main container */
+.container {
+  text-align: center;
+}
+
+/* Game board */
+#board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 10px;
+  margin: 20px auto;
+}
+
+/* Each square */
+.square {
+  width: 100px;
+  height: 100px;
+  background: rgba(0, 255, 234, 0.2);
+  border: 2px solid #00ffea;
+  font-size: 48px;
+  color: #00ffea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.3s;
+  border-radius: 8px;
+}
+
+.square:hover {
+  background: rgba(0, 255, 234, 0.4);
+}
+
+/* Status message */
+#status {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+/* Reset button */
+#resetBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #00ffea;
+  color: #0f0c29;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#resetBtn:hover {
+  background: #00d1b2;
+}
