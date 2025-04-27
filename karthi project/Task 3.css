@@ -1,4 +1,3 @@
-/* Neon background */
 body {
   margin: 0;
   height: 100vh;
@@ -10,12 +9,10 @@ body {
   color: #00ffea;
 }
 
-/* Main container */
 .container {
   text-align: center;
 }
 
-/* Game board */
 #board {
   display: grid;
   grid-template-columns: repeat(3, 100px);
@@ -23,7 +20,7 @@ body {
   margin: 20px auto;
 }
 
-/* Each square */
+
 .square {
   width: 100px;
   height: 100px;
@@ -43,13 +40,11 @@ body {
   background: rgba(0, 255, 234, 0.4);
 }
 
-/* Status message */
 #status {
   margin-top: 20px;
   font-size: 24px;
 }
 
-/* Reset button */
 #resetBtn {
   margin-top: 20px;
   padding: 10px 20px;
